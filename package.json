@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --ignore \"./data\" server.js"
+    "dev": "nodemon --ignore \"./data\" server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

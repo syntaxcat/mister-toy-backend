@@ -6,6 +6,8 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
 
+app.use(express.static("public"));
+
 const cors = require("cors");
 app.use(cors());
 
@@ -107,4 +109,7 @@ app.put("/api/toy/:toyId", (req, res) => {
     });
 });
 
-app.listen(3030, () => console.log("Server listening on port 3030"));
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`App listening on port ${port}!`);
+});
