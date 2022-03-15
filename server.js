@@ -6,6 +6,9 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
 
+const cors = require("cors");
+app.use(cors());
+
 app.get("/", (req, res) => res.send("Hello!"));
 
 // Toy LIST
@@ -66,6 +69,7 @@ app.post("/api/toy", (req, res) => {
     inStock,
     labels,
   };
+  console.log("toy", toy);
 
   toyService
     .save(toy)

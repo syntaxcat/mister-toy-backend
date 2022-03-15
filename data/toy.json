@@ -1,11 +1,11 @@
 [
   {
-    "_id": "YRXNO",
-    "name": "Puki",
-    "price": 200,
-    "type": "Adult",
-    "createdAt": "1986-05-11T14:23:18.396Z",
-    "inStock": false,
+    "_id": "GueGc",
+    "name": "yyyy",
+    "price": 555,
+    "type": "Funny",
+    "createdAt": "",
+    "inStock": true,
     "labels": [
       "Doll",
       "Battery Powered",
@@ -13,23 +13,9 @@
     ]
   },
   {
-    "_id": "61",
-    "name": "et libero",
-    "price": 300,
-    "type": "Adult",
-    "createdAt": "1986-05-11T14:23:18.396Z",
-    "inStock": true,
-    "labels": [
-      "Doll",
-      "Battery Powered",
-      "Baby"
-    ],
-    "reviews": "Expensive"
-  },
-  {
     "_id": "63",
-    "name": "dolor ante",
-    "price": 95,
+    "name": "dolor !!!!!$$$$",
+    "price": 69,
     "type": "Adult",
     "createdAt": "1985-07-30T21:51:26.827Z",
     "inStock": true,
