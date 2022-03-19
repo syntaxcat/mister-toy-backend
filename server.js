@@ -1,115 +1,61 @@
-// import { toyService } from "./services/toyService.js";
-
-const toyService = require("./services/toyService.js");
 const express = require("express");
-const bodyParser = require("body-parser");
-const app = express();
-app.use(bodyParser.json());
+const cors = require("cors");
+const path = require("path");
+const expressSession = require("express-session");
 
+const app = express();
+const http = require("http").createServer(app);
+
+// session setup
+const session = expressSession({
+  secret: "coding is amazing",
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false },
+});
+
+// Express App Config
+app.use(express.json());
+app.use(session);
 app.use(express.static("public"));
 
-const cors = require("cors");
-app.use(cors());
+if (process.env.NODE_ENV === "production") {
+  // Express serve static files on production environment
+  app.use(express.static(path.resolve(__dirname, "public")));
+} else {
+  // Configuring CORS
 
-app.get("/", (req, res) => res.send("Hello!"));
-
-// Toy LIST
-app.get("/api/toy", (req, res) => {
-  console.log("Backend getting your Toys");
-  //   const filterBy = {
-  //     txt: req.query.txt || "",
-  //     page: req.query.page || 0,
-  //   };
-  toyService
-    .query()
-    .then((toys) => {
-      res.send(toys);
-    })
-    .catch((err) => {
-      console.log("Backend had error: ", err);
-      res.status(404).send("No Toys");
-    });
-});
-
-// Toy READ
-app.get("/api/toy/:toyId", (req, res) => {
-  console.log("Backend getting your Toy:", req.params.toyId);
-  toyService
-    .getById(req.params.toyId)
-    .then((toy) => {
-      res.send(toy);
-    })
-    .catch((err) => {
-      console.log("Backend had error: ", err);
-      res.status(404).send("No such Toy");
-    });
-});
-
-// Toy DELETE
-app.delete("/api/toy/:toyId", (req, res) => {
-  console.log("Backend removing Toy:", req.params.toyId);
-  toyService
-    .remove(req.params.toyId)
-    .then(() => {
-      res.send({ msg: "Removed" });
-    })
-    .catch((err) => {
-      console.log("Backend had error: ", err);
-      res.status(404).send("Cannot remove Toy");
-    });
-});
-
-// Toy CREATE
-app.post("/api/toy", (req, res) => {
-  const { name, price, type, createdAt, inStock, labels } = req.body;
-  const toy = {
-    _id: "",
-    name,
-    price,
-    type,
-    createdAt,
-    inStock,
-    labels,
+  const corsOptions = {
+    // Make sure origin contains the url your frontend is running on
+    origin: [
+      "http://127.0.0.1:3030",
+      "http://localhost:3030",
+      "http://127.0.0.1:3000",
+      "http://localhost:3000",
+    ],
+    credentials: true,
   };
-  console.log("toy", toy);
+  app.use(cors(corsOptions));
+}
 
-  toyService
-    .save(toy)
-    .then((savedToy) => {
-      res.status(201).send(savedToy);
-    })
-    .catch((err) => {
-      console.log("Backend had error: ", err);
-      res.status(401).send("Cannot create Toy");
-    });
+const authRoutes = require("./api/auth/authRoutes");
+const userRoutes = require("./api/user/userRoutes");
+const toyRoutes = require("./api/toy/toyRoutes");
+
+// routes
+app.use("/api/auth", authRoutes);
+app.use("/api/user", userRoutes);
+app.use("/api/toy", toyRoutes);
+
+// Make every server-side-route to match the index.html
+// so when requesting http://localhost:3030/index.html/car/123 it will still respond with
+// our SPA (single page app) (the index.html file) and allow vue-router to take it from there
+app.get("/**", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// Toy UPDATE
-app.put("/api/toy/:toyId", (req, res) => {
-  console.log("Backend Saving Toy:");
-  const { _id, name, price, type, createdAt, inStock, labels } = req.body;
-  const toy = {
-    _id,
-    name,
-    price,
-    type,
-    createdAt,
-    inStock,
-    labels,
-  };
-
-  toyService
-    .save(toy)
-    .then((savedToy) => {
-      res.send(savedToy);
-    })
-    .catch((err) => {
-      console.log("Backend had error: ", err);
-      res.status(401).send("Cannot update Toy");
-    });
-});
-
+const logger = require("./services/loggerService");
 const port = process.env.PORT || 3030;
-app.listen(port, () => {
-  console.log(`App listening on port ${port}!`);
+http.listen(port, () => {
+  logger.info("Server is running on port: " + port);
 });
