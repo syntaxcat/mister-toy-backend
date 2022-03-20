@@ -1,6 +1,7 @@
 const dbService = require("../../services/dbService.js");
 const logger = require("../../services/loggerService.js");
 const ObjectId = require("mongodb").ObjectId;
+const reviewService = require("../review/reviewService.js");
 
 async function query(filterBy) {
   try {
@@ -18,7 +19,16 @@ async function query(filterBy) {
 async function getById(toyId) {
   try {
     const collection = await dbService.getCollection("Toy");
-    const toy = collection.findOne({ _id: ObjectId(toyId) });
+    const toy = await collection.findOne({ _id: ObjectId(toyId) });
+
+    toy.reviews = await reviewService.query({
+      aboutToyId: ObjectId(toy._id),
+    });
+
+    toy.reviews.forEach((review) => {
+      delete review.aboutToy;
+    });
+
     return toy;
   } catch (err) {
     logger.error(`while finding toy ${toyId}`, err);
@@ -30,7 +40,6 @@ async function remove(toyId) {
   try {
     const collection = await dbService.getCollection("Toy");
     const res = await collection.deleteOne({ _id: ObjectId(toyId) });
-    console.log(toyId);
     return toyId;
   } catch (err) {
     logger.error(`cannot remove toy ${toyId}`, err);

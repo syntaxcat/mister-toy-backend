@@ -296,3 +296,213 @@
 3/20/2022, 8:14:08 AM - DEBUG - auth.service - login with username: ben-david
 3/20/2022, 8:14:08 AM - INFO - Req!!!
 3/20/2022, 8:14:08 AM - INFO - Req from: puki ben david
+3/20/2022, 4:44:32 PM - INFO - Server is running on port: 3030
+3/20/2022, 5:13:00 PM - INFO - Server is running on port: 3030 
+3/20/2022, 5:13:10 PM - INFO - Server is running on port: 3030 
+3/20/2022, 5:21:19 PM - INFO - Server is running on port: 3030 
+3/20/2022, 5:22:43 PM - INFO - Server is running on port: 3030 
+3/20/2022, 5:23:20 PM - INFO - Server is running on port: 3030 
+3/20/2022, 5:23:28 PM - INFO - Req!!! (sid: S81zGOk1GECXDcC6TyUyLJdpMKByU4Ao)
+3/20/2022, 5:41:46 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: S81zGOk1GECXDcC6TyUyLJdpMKByU4Ao)
+3/20/2022, 5:41:46 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: S81zGOk1GECXDcC6TyUyLJdpMKByU4Ao)
+3/20/2022, 5:41:46 PM - INFO - Req!!! (sid: S81zGOk1GECXDcC6TyUyLJdpMKByU4Ao)
+3/20/2022, 5:41:47 PM - INFO - Req!!! (sid: S81zGOk1GECXDcC6TyUyLJdpMKByU4Ao)
+3/20/2022, 6:21:55 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:31:58 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:32:20 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:33:08 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:33:32 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:33:32 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:33:32 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:33:33 PM - INFO - Req!!! (sid: 0PXpEHBlVI82NOxGU8eiNRWX-qDHROQb)
+3/20/2022, 6:41:11 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:41:36 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:41:54 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:45:27 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:46:52 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:54:20 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:54:37 PM - INFO - Req!!! (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:54:37 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:54:37 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:54:57 PM - DEBUG - auth.service - login with username: ben-david (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:54:57 PM - INFO - Req!!! (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:54:57 PM - INFO - Req from: puki ben david (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:55:03 PM - INFO - Req!!! (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:55:03 PM - INFO - Req from: puki ben david (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:56:05 PM - INFO - Req!!! (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:56:05 PM - INFO - Req from: puki ben david (sid: Dbvzp2G5Sh0JwBll7J6A9nKEGXk3hBWj)
+3/20/2022, 6:56:34 PM - INFO - Server is running on port: 3030 
+3/20/2022, 6:56:38 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:38 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:38 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:50 PM - DEBUG - auth.service - login with username: ben-david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:50 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:50 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:54 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 6:56:54 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 7:29:49 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 7:29:49 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:11:56 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:11:56 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:11:56 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:11:56 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:13:05 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:13:05 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:13:09 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:13:09 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:31:38 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:31:38 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:09 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:09 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:09 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:09 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:39 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:39 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:42 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:42 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:43 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:41:43 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:05 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:05 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:19 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:19 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:36 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:36 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:36 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:36 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:53 PM - INFO - Req!!! (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:42:53 PM - INFO - Req from: puki ben david (sid: ivWf12BlFEl-pt_TXlT5hdBXxQMvc1iA)
+3/20/2022, 9:43:36 PM - INFO - Server is running on port: 3030 
+3/20/2022, 9:43:44 PM - INFO - Server is running on port: 3030 
+3/20/2022, 9:43:47 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:43:47 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:43:47 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:43:51 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:43:52 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:44:01 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:44:06 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:44:06 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:44:06 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:50 PM - DEBUG - auth.service - login with username: ben-david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:50 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:50 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:51 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:51 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:55 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 9:54:55 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:01:20 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:01:20 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:01:20 PM - ERROR - Failed to add review | ReferenceError: logger is not defined (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:04:03 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:04:03 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:04:03 PM - ERROR - Failed to add review | ReferenceError: logger is not defined (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:04:28 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:04:28 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:13:20 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:13:20 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:18:38 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:18:38 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:18:48 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:18:48 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:20:12 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:20:12 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:20:14 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:20:14 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:20:18 PM - INFO - Req!!! (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:20:18 PM - INFO - Req from: puki ben david (sid: bA18miHofm-8siETiP0o7OkV7Gcunq12)
+3/20/2022, 10:24:40 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:25:05 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:25:27 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:26:06 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:26:44 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:31:19 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:31:27 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:31:30 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:31:40 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:31:52 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:32:09 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:32:24 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:32:25 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:32:37 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:32:52 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:33:10 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:33:26 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:33:33 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:33:53 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:35:57 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:36:01 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:36:22 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:36:30 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:36:48 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:36:57 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:37:08 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:37:43 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:37:46 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:38:03 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:38:45 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:39:21 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:39:32 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:39:57 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:40:00 PM - ERROR - while finding toy 62333ae8e6f5d952f215759c | ReferenceError: user is not defined (sid: U39Oeo8JSf_YNxS9_Es9Kv12TOUPRLbU)
+3/20/2022, 10:40:00 PM - ERROR - Failed to get toy | ReferenceError: user is not defined (sid: U39Oeo8JSf_YNxS9_Es9Kv12TOUPRLbU)
+3/20/2022, 10:40:00 PM - ERROR - while finding toy 62333ae8e6f5d952f215759c | ReferenceError: user is not defined (sid: B8XuigdMNtvAv3TtLn8QWU3Ykm_GLOXW)
+3/20/2022, 10:40:00 PM - ERROR - Failed to get toy | ReferenceError: user is not defined (sid: B8XuigdMNtvAv3TtLn8QWU3Ykm_GLOXW)
+3/20/2022, 10:40:11 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:40:14 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:40:40 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:40:58 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:41:12 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:42:45 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:43:08 PM - INFO - Req!!! (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:08 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:08 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:37 PM - DEBUG - auth.service - login with username: ben-david (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:37 PM - INFO - Req!!! (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:37 PM - INFO - Req from: puki ben david (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:40 PM - INFO - Req!!! (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:43:40 PM - INFO - Req from: puki ben david (sid: -uSGsEWjss-_wEMt9jjeyDkdfPcGfbjl)
+3/20/2022, 10:44:48 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:44:51 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:45:38 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:46:03 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:46:05 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:46:09 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:46:44 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:46:48 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:46:56 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:47:18 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:47:32 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:47:50 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:48:06 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:48:47 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:48:56 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:49:03 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:49:12 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:49:47 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:52:12 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:52:22 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:53:43 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:54:01 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:54:11 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:58:11 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:58:50 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:58:52 PM - INFO - Server is running on port: 3030 
+3/20/2022, 10:59:28 PM - INFO - Server is running on port: 3030 
+3/20/2022, 11:10:12 PM - INFO - Server is running on port: 3030 
+3/20/2022, 11:11:44 PM - INFO - Server is running on port: 3030 
+3/20/2022, 11:12:25 PM - INFO - Server is running on port: 3030 
+3/20/2022, 11:12:32 PM - INFO - Server is running on port: 3030 
+3/20/2022, 11:16:21 PM - INFO - Server is running on port: 3030 
+3/20/2022, 11:16:52 PM - INFO - Req!!! (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:16:52 PM - ERROR - while finding toy undefined | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:16:52 PM - ERROR - Failed to get toy | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:03 PM - DEBUG - auth.service - login with username: ben-david (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:03 PM - ERROR - Failed to Login Invalid username or password (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:06 PM - DEBUG - auth.service - login with username: ben-david (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:07 PM - INFO - Req!!! (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:07 PM - INFO - Req from: puki ben david (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:14 PM - INFO - Req!!! (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:14 PM - INFO - Req from: puki ben david (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:17 PM - INFO - Req!!! (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:17:17 PM - INFO - Req from: puki ben david (sid: 7_JjQsGs0F8xLV_i1VLCDnDdQbSZ-lsv)
+3/20/2022, 11:18:05 PM - INFO - Server is running on port: 3030 
