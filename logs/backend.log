@@ -280,3 +280,19 @@
 3/19/2022, 11:16:46 PM - INFO - Req from: puki muki
 3/19/2022, 11:16:46 PM - INFO - Req!!!
 3/19/2022, 11:16:46 PM - INFO - Req from: puki muki
+3/20/2022, 8:01:50 AM - INFO - Server is running on port: 3030
+3/20/2022, 8:02:20 AM - DEBUG - auth.service - login with username: admin
+3/20/2022, 8:02:20 AM - INFO - Req!!!
+3/20/2022, 8:02:20 AM - INFO - Req from: puki muki
+3/20/2022, 8:11:38 AM - DEBUG - auth.service - login with username: admin
+3/20/2022, 8:11:38 AM - INFO - Req!!!
+3/20/2022, 8:11:38 AM - INFO - Req from: puki muki
+3/20/2022, 8:11:59 AM - DEBUG - auth.service - login with username: admin
+3/20/2022, 8:11:59 AM - INFO - Req!!!
+3/20/2022, 8:11:59 AM - INFO - Req from: puki muki
+3/20/2022, 8:14:00 AM - DEBUG - auth.service - login with username: admin
+3/20/2022, 8:14:00 AM - INFO - Req!!!
+3/20/2022, 8:14:00 AM - INFO - Req from: puki muki
+3/20/2022, 8:14:08 AM - DEBUG - auth.service - login with username: ben-david
+3/20/2022, 8:14:08 AM - INFO - Req!!!
+3/20/2022, 8:14:08 AM - INFO - Req from: puki ben david
