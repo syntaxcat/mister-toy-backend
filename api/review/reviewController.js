@@ -27,7 +27,6 @@ async function addReview(req, res) {
   try {
     var review = req.body;
     review.byUserId = req.session.user._id;
-    console.log("review", review);
 
     review = await reviewService.add(review);
     res.send(review);
@@ -59,7 +58,6 @@ async function addReview(req, res) {
     //   label: fullUser._id,
     // });
   } catch (err) {
-    console.log(err);
     logger.error("Failed to add review", err);
     res.status(500).send({ err: "Failed to add review" });
   }
